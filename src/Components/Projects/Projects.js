@@ -9,7 +9,7 @@ export default function Projects() {
 
       <Navbar />
 
-      <motion.div className='projects-page' exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+      <motion.div className='projects-page' exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
         Hello, projects are here
       </motion.div>
 

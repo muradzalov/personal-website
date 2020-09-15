@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 import Navbar from '../Navbar/Navbar'
 import { motion } from 'framer-motion'
-import { Button } from 'react-bootstrap'
+import Description from '../../Static/Description'
 
 export default function About() {
   return (
@@ -10,21 +10,28 @@ export default function About() {
 
       <Navbar />
 
-      <motion.div className='about-page' exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        Hello, about information is here
+      <motion.div className='about-page' exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
 
-        <>
-          <Button variant="primary">Primary</Button>{' '}
-          <Button variant="secondary">Secondary</Button>{' '}
-          <Button variant="success">Success</Button>{' '}
-          <Button variant="warning">Warning</Button>{' '}
-          <Button variant="danger">Danger</Button> <Button variant="info">Info</Button>{' '}
-          <Button variant="light">Light</Button> <Button variant="dark">Dark</Button>{' '}
-          <Button variant="link">Link</Button>
-        </>
+        <div className='white-container'>
 
 
 
+
+
+            <div className='about-title'>
+              // Hello World
+            </div>
+
+            <div className='description-container'>
+              {Description}
+            </div>
+
+
+
+
+
+
+        </div>
       </motion.div>
 
     </div>
