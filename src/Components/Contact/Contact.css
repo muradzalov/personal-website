@@ -7,3 +7,38 @@
   align-items: center; /*centers items on the cross-axis (y by default)*/
   background-color: #FDF5E6;
 }
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon:hover {
+  transform: scale(1.05);
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.right-side {
+  display: flex;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid;
+}
+
+.contact-text {
+  font-size: 65px;
+  font-weight: 600;
+}

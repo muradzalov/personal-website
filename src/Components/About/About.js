@@ -27,7 +27,7 @@ export default function About() {
             })}
 
             <div className='resume-container'>
-              <a href={MuradZalovResume} target="_blank">              
+              <a href={MuradZalovResume} rel="noopener noreferrer" target="_blank">              
               <img src={ResumePhoto} alt='' className='pdf-image' /></a>
             </div>
           </div>
