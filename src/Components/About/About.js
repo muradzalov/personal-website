@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import './About.css'
 import Navbar from '../Navbar/Navbar'
 import { motion } from 'framer-motion'
 import Description from '../../Static/Description'
+import ComputerWallpaper from '../../Static/ComputerWallpaper.jpg'
+import ResumePhoto from '../../Static/ResumePhoto.png'
+import MuradZalovResume from '../../Static/MuradZalovResume.pdf'
 
 export default function About() {
   return (
@@ -14,21 +17,25 @@ export default function About() {
 
         <div className='white-container'>
 
-
-
-
-
-            <div className='about-title'>
-              // Hello World
+          <div className='about-title'>
+            // Hello World
             </div>
 
-            <div className='description-container'>
-              {Description}
+          <div className='description-container'>
+            {Description.split('\n').map((item, key) => {
+              return <Fragment key={key}>{item}<br /></Fragment>
+            })}
+
+            <div className='resume-container'>
+              <a href={MuradZalovResume} target="_blank">              
+              <img src={ResumePhoto} className='pdf-image' /></a>
             </div>
+          </div>
 
 
-
-
+          <div className='image-container'>
+            <img src={ComputerWallpaper} className='computer-image' />
+          </div>
 
 
         </div>

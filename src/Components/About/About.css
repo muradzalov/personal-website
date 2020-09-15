@@ -18,8 +18,6 @@
   box-shadow: 0px 3px 8px 0.5px rgb(184, 177, 177);
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: flex-start; */
 }
 
 .about-title {
@@ -34,4 +32,28 @@
   border: 2.0px solid rgb(207, 185, 185);
   padding: 10px;
   border-radius: 4px;
+}
+
+.image-container{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.computer-image {
+  width: 400px;
+  height: auto;
+  opacity: 0.75;
+}
+
+.resume-container {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+}
+
+.pdf-image {
+  width: 120px;
+  height: 120px;
 }
