@@ -28,13 +28,13 @@ export default function About() {
 
             <div className='resume-container'>
               <a href={MuradZalovResume} target="_blank">              
-              <img src={ResumePhoto} className='pdf-image' /></a>
+              <img src={ResumePhoto} alt='' className='pdf-image' /></a>
             </div>
           </div>
 
 
           <div className='image-container'>
-            <img src={ComputerWallpaper} className='computer-image' />
+            <img src={ComputerWallpaper} alt='' className='computer-image' />
           </div>
 
 
