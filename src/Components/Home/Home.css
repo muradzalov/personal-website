@@ -1,0 +1,62 @@
+.home {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center; /*centers items on the line (the x-axis by default)*/
+  align-items: center; /*centers items on the cross-axis (y by default)*/
+  background-color: #FDF5E6;
+}
+
+.name-photo-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  /* margin: top right bottom left */
+  margin: 32px 60px 16px 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 0.5px 1px;
+  /* transition: transform .2s; */
+}
+
+/* .button:hover {
+  transform: scale(1.5);
+} */
+
+.photo-container {
+  /* max-width: 50px;
+  max-height: 50px; */
+  margin: 10px;
+}
+
+.personal-photo {
+  width: 14vw;
+  height: auto;
+  border-radius: 50%;
+}
+
+.name-container {
+  width: 30vw;
+  display: flex;
+  font-size: 48px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
