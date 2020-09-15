@@ -48,7 +48,6 @@
 }
 
 .resume-container {
-  width: 70vw;
   display: flex;
   justify-content: center;
 }
@@ -56,4 +55,8 @@
 .pdf-image {
   width: 120px;
   height: 120px;
+}
+
+.pdf-image:hover {
+  transform: scale(1.05);
 }
