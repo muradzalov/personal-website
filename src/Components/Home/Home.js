@@ -1,5 +1,5 @@
 import React from 'react'
-import PersonalPhoto from '../../Static/LinkedIn.jpg'
+import ProfessionalPhoto from '../../Static/ProfessionalPhoto.jpg'
 import { Link } from 'react-router-dom'
 import './Home.css'
 import Typewriter from 'typewriter-effect';
@@ -12,7 +12,7 @@ export default function Home() {
       {/* Wrapper for the photo and namecard */}
       <div className='name-photo-wrapper'>
         <div className='photo-container'>
-          <img src={PersonalPhoto} alt="Murad Zalov" className='personal-photo' />
+          <img src={ProfessionalPhoto} alt="Murad Zalov" className='personal-photo' />
         </div>
 
         <div className='name-container'>
