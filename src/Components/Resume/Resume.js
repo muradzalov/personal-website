@@ -12,7 +12,7 @@ export default function Projects() {
 
       <motion.div className='projects-page' exit={{ opacity: 0 }} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
 
-        <div className='image-container'>
+        <div className='resume-image-container'>
             <img src={MuradZalovResume} alt='' className='resume-image' />
           </div>
 

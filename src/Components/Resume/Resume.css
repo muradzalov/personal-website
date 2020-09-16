@@ -11,3 +11,10 @@
 .resume-image {
   border: 2px solid rgb(146, 145, 145);
 }
+
+.resume-image-container{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 75px; */
+}
