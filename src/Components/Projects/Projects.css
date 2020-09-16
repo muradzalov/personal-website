@@ -7,3 +7,8 @@
   align-items: center; /*centers items on the cross-axis (y by default)*/
   background-color: #FDF5E6;
 }
+
+/* .pdf {
+  width: 90vw;
+  height: 90vh;
+} */

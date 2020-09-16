@@ -32,7 +32,6 @@ export default function About() {
             </div>
           </div>
 
-
           <div className='image-container'>
             <img src={ComputerWallpaper} alt='' className='computer-image' />
           </div>
