@@ -6,6 +6,7 @@ import Description from '../../Static/Description'
 import ComputerWallpaper from '../../Static/ComputerWallpaper.jpg'
 import { Link } from 'react-router-dom'
 import ResumeLogo from '../../Static/ResumeLogo.png'
+import ResumePhoto from '../../Static/ResumePhoto.png'
 
 export default function About() {
   return (
@@ -27,11 +28,11 @@ export default function About() {
             })}
 
             <div className='resume-container'>
-              <Link to="/resume">
+              {/* <Link to="/resume">
                   <img src={ResumeLogo} alt='' className='pdf-image' />
-              </Link>
-              {/* <a href={MuradZalovResume} rel="noopener noreferrer" target="_blank">              
-              <img src={ResumePhoto} alt='' className='pdf-image' /></a> */}
+              </Link> */}
+              <a href='https://drive.google.com/file/d/1VCDEwvPrp3YnMBdgayYfQ7tirLkVxR-b/view?usp=sharing' rel="noopener noreferrer" target="_blank">              
+              <img src={ResumePhoto} alt='' className='pdf-image' /></a>
             </div>
           </div>
 

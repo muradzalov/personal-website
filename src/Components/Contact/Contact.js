@@ -29,7 +29,7 @@ export default function Contact() {
             </div>
           </div>
 
-         
+
           {/* EMAIL + PHONE + RESUME */}
           <div className='right-side'>
 
@@ -57,9 +57,14 @@ export default function Contact() {
                 RESUME:
               </div>
               <div className='information-clickable'>
-                <Link to="/resume">
+
+                {/* <Link to="/resume">
                   Click here
-                </Link>
+                </Link> */}
+
+                <a href='https://drive.google.com/file/d/1VCDEwvPrp3YnMBdgayYfQ7tirLkVxR-b/view?usp=sharing' rel="noopener noreferrer" target="_blank">Click here</a>
+
+
               </div>
             </div>
           </div>
