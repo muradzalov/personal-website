@@ -17,7 +17,7 @@ export default function Projects() {
 
 
 
-        Hello, projects are here
+        HELLOOOOOO
 
         <div className='pdf'>
           <embed src={MuradZalovResume} type="application/pdf" width="1200px" height="1200px"/>
