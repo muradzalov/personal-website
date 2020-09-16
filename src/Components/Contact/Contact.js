@@ -15,38 +15,51 @@ export default function Contact() {
 
         <div className='content-container'>
 
-
-
-
-
+          {/* CONTACT + LOGOS BOX */}
           <div className='left-side'>
-
-
             <div className='contact-text'>
               CONTACT
             </div>
-
             <div className='links-container'>
               <a href="https://www.linkedin.com/in/muradzalov/" rel="noopener noreferrer" target="_blank">
                 <img src={GitHubLogo} alt='' className='icon' /></a>
               <a href="https://github.com/muradzalov" rel="noopener noreferrer" target="_blank">
                 <img src={LinkedInLogo} alt='' className='icon' /></a>
             </div>
-
-
-
           </div>
 
 
-
+          {/* EMAIL + PHONE + RESUME */}
           <div className='right-side'>
-            Email: mzalov@gmail.com
-            Phone: 847.529.7382
-            Resume: click here
+
+
+            <div className='titles-and-information-email'>
+              <div className='titles'>
+                EMAIL:
+              </div>
+              <div className='information'>
+                mzalov@gmail.com
+              </div>
+            </div>
+
+            <div className='titles-and-information-phone'>
+              <div className='titles'>
+                PHONE:
+              </div>
+              <div className='information'>
+                847.529.7382
+              </div>
+            </div>
+
+            <div className='titles-and-information-resume'>
+              <div className='titles'>
+                RESUME:
+              </div>
+              <div className='information'>
+                click here
+              </div>
+            </div>
           </div>
-
-
-
 
         </div>
 
