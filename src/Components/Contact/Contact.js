@@ -22,14 +22,14 @@ export default function Contact() {
               CONTACT
             </div>
             <div className='links-container'>
-              <a href="https://www.linkedin.com/in/muradzalov/" rel="noopener noreferrer" target="_blank">
-                <img src={GitHubLogo} alt='' className='icon' /></a>
               <a href="https://github.com/muradzalov" rel="noopener noreferrer" target="_blank">
+                <img src={GitHubLogo} alt='' className='icon' /></a>
+              <a href="https://www.linkedin.com/in/muradzalov" rel="noopener noreferrer" target="_blank">
                 <img src={LinkedInLogo} alt='' className='icon' /></a>
             </div>
           </div>
 
-
+         
           {/* EMAIL + PHONE + RESUME */}
           <div className='right-side'>
 
