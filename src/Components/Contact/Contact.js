@@ -4,6 +4,7 @@ import './Contact.css'
 import { motion } from 'framer-motion'
 import GitHubLogo from '../../Static/GitHubLogo.png'
 import LinkedInLogo from '../../Static/LinkedInLogo.png'
+import { Link } from 'react-router-dom'
 
 export default function Contact() {
   return (
@@ -55,8 +56,10 @@ export default function Contact() {
               <div className='titles'>
                 RESUME:
               </div>
-              <div className='information'>
-                click here
+              <div className='information-clickable'>
+                <Link to="/resume">
+                  Click here
+                </Link>
               </div>
             </div>
           </div>

@@ -4,8 +4,8 @@ import Navbar from '../Navbar/Navbar'
 import { motion } from 'framer-motion'
 import Description from '../../Static/Description'
 import ComputerWallpaper from '../../Static/ComputerWallpaper.jpg'
-import ResumePhoto from '../../Static/ResumePhoto.png'
-import MuradZalovResume from '../../Static/MuradZalovResume.pdf'
+import { Link } from 'react-router-dom'
+import ResumeLogo from '../../Static/ResumeLogo.png'
 
 export default function About() {
   return (
@@ -27,8 +27,11 @@ export default function About() {
             })}
 
             <div className='resume-container'>
-              <a href={MuradZalovResume} rel="noopener noreferrer" target="_blank">              
-              <img src={ResumePhoto} alt='' className='pdf-image' /></a>
+              <Link to="/resume">
+                  <img src={ResumeLogo} alt='' className='pdf-image' />
+              </Link>
+              {/* <a href={MuradZalovResume} rel="noopener noreferrer" target="_blank">              
+              <img src={ResumePhoto} alt='' className='pdf-image' /></a> */}
             </div>
           </div>
 
