@@ -7,3 +7,7 @@
   align-items: center; /*centers items on the cross-axis (y by default)*/
   background-color: #FDF5E6;
 }
+
+.resume-image {
+  border: 2px solid rgb(146, 145, 145);
+}
