@@ -4,8 +4,6 @@ import Navbar from '../Navbar/Navbar'
 import { motion } from 'framer-motion'
 import Description from '../../Static/Description'
 import ComputerWallpaper from '../../Static/ComputerWallpaper.jpg'
-import { Link } from 'react-router-dom'
-import ResumeLogo from '../../Static/ResumeLogo.png'
 import ResumePhoto from '../../Static/ResumePhoto.png'
 
 export default function About() {
@@ -31,7 +29,7 @@ export default function About() {
               {/* <Link to="/resume">
                   <img src={ResumeLogo} alt='' className='pdf-image' />
               </Link> */}
-              <a href='https://drive.google.com/file/d/1VCDEwvPrp3YnMBdgayYfQ7tirLkVxR-b/view?usp=sharing' rel="noopener noreferrer" target="_blank">              
+              <a href='https://drive.google.com/file/d/1y_LlWduFXNAnGlZChr56woOV4Qf6e5KK/view?usp=sharing' rel="noopener noreferrer" target="_blank">              
               <img src={ResumePhoto} alt='' className='pdf-image' /></a>
             </div>
           </div>

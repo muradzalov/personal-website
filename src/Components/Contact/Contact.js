@@ -4,7 +4,6 @@ import './Contact.css'
 import { motion } from 'framer-motion'
 import GitHubLogo from '../../Static/GitHubLogo.png'
 import LinkedInLogo from '../../Static/LinkedInLogo.png'
-import { Link } from 'react-router-dom'
 
 export default function Contact() {
   return (
@@ -62,7 +61,7 @@ export default function Contact() {
                   Click here
                 </Link> */}
 
-                <a href='https://drive.google.com/file/d/1VCDEwvPrp3YnMBdgayYfQ7tirLkVxR-b/view?usp=sharing' rel="noopener noreferrer" target="_blank">Click here</a>
+                <a href='https://drive.google.com/file/d/1y_LlWduFXNAnGlZChr56woOV4Qf6e5KK/view?usp=sharing' rel="noopener noreferrer" target="_blank">Click here</a>
 
 
               </div>
