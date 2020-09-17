@@ -3,15 +3,16 @@
   width: 100vw;
   height: calc(100vh - 40px);
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: #FDF5E6;
 }
 
 .white-container {
+  margin-top: 75px;
   background-color: #ffffff;
   width: 80vw;
-  height: 85vh;
+  height: auto;
   position: relative;
   border-radius: 7px;
   border: 1.5px solid rgb(216, 214, 214);
@@ -24,7 +25,8 @@
   font-size: 65px;
   font-weight: 650;
   /* margin: top right bottom left */
-  margin: 30px 0 30px 70px
+  margin: 30px 0 30px 70px;
+  /* background-color: white; */
 }
 
 .description-container {
@@ -32,6 +34,7 @@
   border: 2.0px solid rgb(207, 185, 185);
   padding: 10px;
   border-radius: 4px;
+  /* background-color: white; */
 }
 
 .image-container{
@@ -39,22 +42,26 @@
   display: flex;
   justify-content: center;
   margin-top: 75px;
+  margin-bottom: 75px;
+  /* background-color: white; */
 }
 
 .computer-image {
   width: 400px;
-  height: auto;
+  height: 300px;
   opacity: 0.75;
 }
 
 .resume-container {
   display: flex;
   justify-content: center;
+  /* background-color: white; */
 }
 
 .pdf-image {
   width: 100px;
   height: 100px;
+  /* background-color: white; */
 }
 
 .pdf-image:hover {
