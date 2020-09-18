@@ -8,6 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import GeoWeather1 from '../../Static/Carousel/GeoWeather1.png'
 import GeoWeather2 from '../../Static/Carousel/GeoWeather2.png'
+import GeoWeather3 from '../../Static/Carousel/GeoWeather3.png'
 import CrossSnap1 from '../../Static/Carousel/CrossSnap1.png'
 import CrossSnap2 from '../../Static/Carousel/CrossSnap2.png'
 import CrossSnap3 from '../../Static/Carousel/CrossSnap3.png'
@@ -70,6 +71,9 @@ export default function Projects() {
                 </div>
                 <div>
                   <img src={GeoWeather2} alt='' />
+                </div>
+                <div>
+                  <img src={GeoWeather3} alt='' />
                 </div>
               </Carousel>
             </div>
