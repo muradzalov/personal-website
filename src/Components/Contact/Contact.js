@@ -61,7 +61,7 @@ export default function Contact() {
                   Click here
                 </Link> */}
 
-                <a href='https://drive.google.com/file/d/1y_LlWduFXNAnGlZChr56woOV4Qf6e5KK/view?usp=sharing' rel="noopener noreferrer" target="_blank">Click here</a>
+                <a href='https://drive.google.com/file/d/1cxaFQ_T-CAPnBcTzHuOM1u3gKxaWQICs/view?usp=sharing' rel="noopener noreferrer" target="_blank">Click here</a>
 
 
               </div>
