@@ -1,3 +1,7 @@
+### `Deployed Site`
+Deployed site available at https://www.muradzalov.com/
+
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
