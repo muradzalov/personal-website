@@ -16,6 +16,7 @@ import CrossSnap4 from '../../Static/Carousel/CrossSnap4.png'
 import DouglasFir1 from '../../Static/Carousel/DouglasFir1.png'
 import DouglasFir2 from '../../Static/Carousel/DouglasFir2.png'
 import DouglasFir3 from '../../Static/Carousel/DouglasFir3.png'
+import ISS1 from '../../Static/Carousel/ISS1.png'
 
 
 export default function Projects() {
@@ -133,17 +134,14 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* ********* CAROUSEL *********
+            {/* ********* CAROUSEL ********* */}
             <div className='carousel-div'>
               <Carousel className='carousel-container' {...getConfigurableProps()}>
                 <div>
-                  <img src={GeoWeather1} alt='' />
-                </div>
-                <div>
-                  <img src={GeoWeather2} alt='' />
+                  <img src={ISS1} alt='' />
                 </div>
               </Carousel>
-            </div> */}
+            </div>
 
             {/* ********* LINKS ********* */}
             <div className='links-div'>
