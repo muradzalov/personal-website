@@ -5,7 +5,7 @@ Deployed site available at https://www.muradzalov.com/
 I created a personal website to practice using basic HTML, CSS, and modularized React components. This site as a hub for my projects and contact information and is deployed through AWS Amplify and Route 53.
 
 ### `Technologies Used`
-React, HTML, CSS, AWS Amplify, AWS Route 53, Typewriter, Bootstrap Carousel, Particle.js
+React, HTML, CSS, AWS Amplify, AWS Route 53, Typewriter, Bootstrap Carousel
 
 ### `npm start`
 Runs the app in the development mode.<br />
